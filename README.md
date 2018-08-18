@@ -1,4 +1,4 @@
-The recommendation Engine is build using 'sample_file' present in Input Folder. It's a content based recommendation problem.
+The recommendation engine is build using 'sampleinputfile' present in Input Folder. It's a content based recommendation problem.
 In the sample file, with Product and selling information, Category and location information also available. Geographical location is quite important to know as it's very unlikely to sell/buy a product to a different location. Recommendation is applied by location and for a category level
 
 Offline:(Asynchronous mode to run) 
