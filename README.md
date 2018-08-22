@@ -1,4 +1,4 @@
-#Recommendation-Engine: An Offline-Online Approach
+Recommendation-Engine: An Offline-Online Approach
 ===================================================
 
 ## Description
@@ -21,17 +21,17 @@ In the sample file, with Product and selling information, Category and location 
 location is quite important to know as it's very unlikely to sell/buy a product to a different location. Recommendation is 
 applied by location and for a category level
 
-### Offline:(Asynchronous mode to run) 
+#### Offline:(Asynchronous mode to run) 
 Product description i.e. listing are classified in multiple clusters to reduce dimensions/# of products. Key words are 
 also listed for each clusters.
 
-### Online:(Synchronous model to run)
+#### Online:(Synchronous model to run)
 Based on product listing, recommender will search the products for that particular cluster. As the # of entries are reduced
 so it can be done in real time. Based on number of recommendation, recommender engine will provide the nearest match based on 
 score and also report price for that product. If user will choose a big number(100X); engine will provide all the products
 present in the cluster and ranking would be done based on search Scores.
 
-### Newly Listed listing:
+#### Newly Listed listing:
 In current methodology, Clustering at offline phase find key terms for each cluster. We can use these key words for the new product listing and get the cluster information and relevant products.
 
 The code has been written to keep the point in mind that it should be scalable to run for multiple categories at the same time
