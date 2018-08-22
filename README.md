@@ -1,7 +1,7 @@
-Recommendation-Engine: An Offline-Online Approach
----------------------------------------------------
+#Recommendation-Engine: An Offline-Online Approach
+===================================================
 
-# Description
+## Description
 
 A simple approach to cluster the listings data into similar items. 
 clusters that can be used in this way: If the items A and B are part of the
@@ -9,12 +9,12 @@ same cluster it is reasonable to recommend B to a user that is viewing or has
 viewed A. Feel free to use the category information that sellers have used to
 classify their listings in any way.
 
-# Dataset
+## Dataset
 
 A sample of listings taken from the south african olx site as well as a list of popular recent keywords.
 
 
-# Approach
+## Approach
 
 The recommendation engine is build using 'sampleinputfile' present in Input Folder. It's a content based recommendation problem.
 In the sample file, with Product and selling information, Category and location information also available. Geographical 
@@ -37,7 +37,7 @@ In current methodology, Clustering at offline phase find key terms for each clus
 The code has been written to keep the point in mind that it should be scalable to run for multiple categories at the same time
 
 
-# Possible Shortcomings & Extensions
+## Possible Shortcomings & Extensions
 
 The methodology is simple and not robust. Definitely, the methodology mentioned in below paper can boost the performance. 
 Using graph/network based recommendation also be a good choice. Sentiment analysis using listing descrtiion can also be used for ranking products.
@@ -45,6 +45,6 @@ Using graph/network based recommendation also be a good choice. Sentiment analys
 In terms of efficiency, the code is not scalable at this point, it's taking long time to get the location, potentially multi-processing
 would be the choice. The set up can be run parallely for multiple categories at the same time using docker or using simple shell script.
                         
-# Reading Materials
+## Reading Materials
   [Recommending Similar Items in Large-scale Online Marketplaces](https://pdfs.semanticscholar.org/e107/0c60d926e69298263e9ca36c698b69a21914.pdf)
   
