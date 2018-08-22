@@ -43,7 +43,7 @@ The methodology is simple and not robust. Definitely, the methodology mentioned 
 Using graph/network based recommendation also be a good choice. Sentiment analysis using listing descrtiion can also be used for ranking products.
  
 In terms of efficiency, the code is not scalable at this point, it's taking long time to get the location, potentially multi-processing
-would be the choice. The set up can be run parallely for multiple categories at the same time using docker or using simple shell script.
+would be the choice for offline phase. The set up can be run parallely for multiple categories at the same time using docker or using simple shell script.
                         
 ## Reading Materials
   [Recommending Similar Items in Large-scale Online Marketplaces](https://pdfs.semanticscholar.org/e107/0c60d926e69298263e9ca36c698b69a21914.pdf)
